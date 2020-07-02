@@ -1,0 +1,8 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handletabsItemChange"><block wx:if="{{tabs[0].isActive}}">
+    无数据
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}">无数据</block>
+  <block wx:elif="{{tabs[2].isActive}}">无数据</block>
+  <block wx:elif="{{tabs[3].isActive}}">无数据</block>
+
+  </Tabs>

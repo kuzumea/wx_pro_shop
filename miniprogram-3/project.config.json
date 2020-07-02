@@ -1,0 +1,126 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.3",
+	"appid": "wx9a7ba4ce0969af62",
+	"projectname": "myshop",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/category/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/goods_detail/index",
+					"pathName": "pages/goods_detail/index",
+					"query": "goods_id=43985",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cart/index",
+					"pathName": "pages/cart/index",
+					"query": "goods_id=43985",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/pay/index",
+					"pathName": "pages/pay/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/auth/index",
+					"pathName": "pages/auth/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/user/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/order/index",
+					"pathName": "pages/order/index",
+					"query": "tab=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/search/index",
+					"pathName": "pages/search/index",
+					"query": "tab=1",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "pages/goods_list/index",
+					"pathName": "pages/goods_list/index",
+					"query": "query=手套",
+					"scene": null
+				}
+			]
+		}
+	}
+}
