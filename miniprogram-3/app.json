@@ -1,60 +1,57 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/category/index",
-    "pages/goods_list/index",
-    "pages/goods_detail/index",
-    "pages/cart/index",
-    "pages/collect/index",
-    "pages/order/index",
-    "pages/search/index",
-    "pages/user/index",
-    "pages/feedback/index",
-    "pages/login/index",
-    "pages/auth/index",
-    "pages/pay/index"
- 
+  "pages": [
+    "pages/home/index",
+    "pages/browse/index",
+    "pages/publish/index",
+    "pages/message/index",
+    "pages/my/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#eb4456",
-    "navigationBarTitleText": "淘优品",
-    "navigationBarTextStyle":"black"
-  },
   "tabBar": {
-    "color": "#999",
-    "selectedColor": "#ff2d4a",
-    "backgroundColor": "#fafafa",
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
     "position": "bottom",
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/index",
         "text": "首页",
-        "iconPath": "icons/home.png",
-        "selectedIconPath": "icons/home-o.png"
+        "iconPath": "./pages/images/tabBar/home_a.png",
+        "selectedIconPath": "./pages/images/tabBar/home.png"
       },
       {
-        "pagePath": "pages/category/index",
-        "text": "分类",
-        "iconPath": "icons/category.png",
-        "selectedIconPath": "icons/category-o.png"
+        "pagePath": "pages/browse/index",
+        "text": "浏览",
+        "iconPath": "./pages/images/tabBar/browser_a.png",
+        "selectedIconPath": "./pages/images/tabBar/browser.png"
       },
       {
-        "pagePath": "pages/cart/index",
-        "text": "购物车",
-        "iconPath": "icons/cart.png",
-        "selectedIconPath": "icons/cart-o.png"
-      }, 
+        "pagePath": "pages/publish/index",
+        "text": "发布",
+        "iconPath": "./pages/images/tabBar/publish_a.png",
+        "selectedIconPath": "./pages/images/tabBar/publish.png"
+      },
       {
-        "pagePath": "pages/user/index",
+        "pagePath": "pages/message/index",
+        "text": "发布",
+        "iconPath": "./pages/images/tabBar/message.png",
+        "selectedIconPath": "./pages/images/tabBar/message_a.png"
+      },
+      {
+        "pagePath": "pages/my/index",
         "text": "我的",
-        "iconPath": "icons/my.png",
-        "selectedIconPath": "icons/my-o.png"
+        "iconPath": "./pages/images/tabBar/my_a.png",
+        "selectedIconPath": "./pages/images/tabBar/my.png"
       }
     ]
   },
   
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fbbd08",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

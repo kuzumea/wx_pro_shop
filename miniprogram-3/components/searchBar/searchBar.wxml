@@ -1,0 +1,7 @@
+<!--components/searchBar.wxml-->
+<view class="search-container" hover-class="none" hover-stop-propagation="false">
+  <!-- <input placeholder="请输入想要搜索的商品"/> -->
+  <view class="search-box"> 
+    <icon type="search" size="16"/> <text >请输入想要搜索的商品</text>
+  </view>
+</view>

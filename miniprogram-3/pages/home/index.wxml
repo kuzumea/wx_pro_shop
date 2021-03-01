@@ -1,0 +1,88 @@
+<!-- pages/home/index.wxml -->
+<view class="container-box" hover-class="none" hover-stop-propagation="false">
+  <searchBar />
+  <block class="swiper-bar">
+    <swiper autoplay indicator-dots circular	>
+      <swiper-item wx:for="{{swiperList}}" wx:key="key" class="" item-id="">
+        <image style="width:100%;height:100%" mode="aspectFit" src="{{item}}" />
+      </swiper-item>
+    </swiper>
+  </block>
+  <scroll-view scroll-x="{{true}}">
+    <view class="navigate-box">
+      <view class="navigate-item {{switchIndex == index ? 'active' : ''}}" data-index="{{index}}" wx:for="{{tabList}}" wx:key="index" bind:tap="switchBarClick">{{item}}</view>
+      <!-- <view class="navigate-item active">全部</view>
+      <view class="navigate-item">生活用品</view>
+      <view class="navigate-item">二手书籍</view>
+      <view class="navigate-item">电子产品</view>
+      <view class="navigate-item">跑腿订单</view>
+      <view class="navigate-item">化妆护肤</view>
+      <view class="navigate-item">代课</view>
+      <view class="navigate-item">其他</view> -->
+    </view>
+  </scroll-view>
+  <view class="item-box">
+    <view class="left-box">
+      <image src="../images/home/item/t1.jpg" />
+    </view>
+    <view class="right-box">
+      <view class="title">漫威机械键盘</view>
+      <text class="f-title">9层新，可以小刀</text>
+      <view class="status">正在出售</view>
+      <view class="footer">
+        <view class="price">￥10
+          <text class="ori-price">￥20</text>
+        </view>
+        <text class="num">x1</text>
+      </view>
+    </view>
+  </view>
+  <view class="item-box">
+    <view class="left-box">
+      <image src="../images/home/item/t1.jpg" />
+    </view>
+    <view class="right-box">
+      <view class="title">漫威机械键盘</view>
+      <text class="f-title">9层新，可以小刀</text>
+      <view class="status">正在出售</view>
+      <view class="footer">
+        <view class="price">￥10
+          <text class="ori-price">￥20</text>
+        </view>
+        <text class="num">x1</text>
+      </view>
+    </view>
+  </view>
+  <view class="item-box">
+    <view class="left-box">
+      <image src="../images/home/item/t1.jpg" />
+    </view>
+    <view class="right-box">
+      <view class="title">漫威机械键盘</view>
+      <text class="f-title">9层新，可以小刀</text>
+      <view class="status">正在出售</view>
+      <view class="footer">
+        <view class="price">￥10
+          <text class="ori-price">￥20</text>
+        </view>
+        <text class="num">x1</text>
+      </view>
+    </view>
+  </view>
+  <view class="item-box">
+    <view class="left-box">
+      <image src="../images/home/item/t1.jpg" />
+    </view>
+    <view class="right-box">
+      <view class="title">漫威机械键盘</view>
+      <text class="f-title">9层新，可以小刀</text>
+      <view class="status">正在出售</view>
+      <view class="footer">
+        <view class="price">￥10
+          <text class="ori-price">￥20</text>
+        </view>
+        <text class="num">x1</text>
+      </view>
+    </view>
+  </view>
+</view>
